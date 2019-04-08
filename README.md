@@ -1,2 +1,7 @@
-# zachmeicho.github.io
-One awesome user repo
+# Zachary Meicho
+
+## Sources
+
+* [Normalize CSS](https://necolas.github.io/normalize.css/)
+* [jQuery](http://jquery.com/)
+
