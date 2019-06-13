@@ -5,6 +5,86 @@
 */
 
 
-* {
-    outline: 1px dotted green;
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Source Serif Pro', serif; */
+
+/* Global */
+*   {
+    outline: 0px dotted green;
 }
+
+
+/* nav bar */
+li  {
+    display: inline-block;
+    list-style: none;
+    padding: 4em 4em;
+}
+a {
+    text-decoration: none;
+    font-family: 'Source Serif Pro';
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    font-family: 'Source Serif Pro';
+    color: white;
+}
+
+nav {
+    margin: auto, 20px;
+    text-align: center;
+    background: aquamarine;
+}
+
+
+
+/* headings */
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Source serif pro';
+    margin-top: 70px;
+}
+
+
+/* Index */
+
+
+
+/* About */
+
+
+
+/* Contact */
+form {
+    background: red;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
+    max-width: 30%;
+    background: #D2E9FF;
+    padding: 20px;
+    color: #666;
+}
+
+input {
+    margin: 10px 20px;
+    width: 90%;
+    margin-top: 20px;
+    background: rgb(231, 231, 231);
+}
+label {
+    margin: auto 20px;
+    display: block;
+    font-family: 'PT Sans';
+}
+
+.submit {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/* Portfolio */
