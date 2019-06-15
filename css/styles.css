@@ -75,6 +75,7 @@ header div p {
 .mainsection {
     width: 700px;
     margin: auto;
+    margin-top: 50px;
 }
 
 /* footer */
@@ -122,8 +123,8 @@ form {
     background: red;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 25px;
-    max-width: 30%;
+    margin-top: 70px;
+    max-width: 80%;
     background: #D2E9FF;
     padding: 20px;
     color: #666;
@@ -157,4 +158,70 @@ label {
 }
 .boxportfolio {
     height: 300px;
+}
+
+figure {
+    margin: 0;
+}
+
+
+
+
+/* grid */
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .5fr 1fr .5fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    background: red;
+    }
+
+.item1 {
+    background: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+}
+.item1des {
+    background: yellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+.item2 {
+    background: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+}
+.item2des {
+    background: yellow;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item3 {
+    background: green;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+}
+.item3des {
+    background: aquamarine;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
