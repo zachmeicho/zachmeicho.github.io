@@ -164,6 +164,11 @@ figure {
     margin: 0;
 }
 
+.mainsectionportfolio {
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
 
 
 
@@ -176,6 +181,9 @@ figure {
     grid-row-gap: 10px;
     background: red;
     }
+.parent img {
+    width: 100%;
+}
 
 .item1 {
     background: blue;
@@ -192,7 +200,6 @@ figure {
     grid-row-start: 2;
     grid-row-end: 3;
 }
-
 
 .item2 {
     background: green;
@@ -224,4 +231,48 @@ figure {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: auto;
+}
+.item4des {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item5 {
+    background: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: auto;
+}
+.item5des {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item6 {
+    background: green;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: auto;
+}
+.item6des {
+    background: aquamarine;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
