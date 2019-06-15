@@ -12,8 +12,12 @@ font-family: 'Source Serif Pro', serif; */
 *   {
     outline: 1px dotted green;
 }
-
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source serif pro', serif;
+}
+p {
+    font-family: 'PT Sans', sans-serif;
+}
 
 
 /* nav bar */
@@ -40,12 +44,15 @@ nav {
 }
 
 
-
 /* headings */
 h1 {
     text-align: center;
     font-size: 3.5rem;
-    font-family: 'Source serif pro';
+    margin-top: 70px;
+}
+section h2 {
+    text-align: left;
+    font-size: 3rem;
     margin-top: 70px;
 }
 
@@ -64,15 +71,53 @@ header div p {
     text-align: center;
 }
 
+/* main section */
+.mainsection {
+    width: 700px;
+    margin: auto;
+}
+
+/* footer */
+footer p {
+    text-align: center;
+    padding-top: 50px;
+}
+footer {
+    margin-top: 100px;
+    height: 200px;
+    background: aquamarine;
+}
+footer div {
+    width: 700px;
+    margin: auto;
+}
+
 /* Index */
 
 
 
 /* About */
-
-
+.headerabout {
+    margin-top: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+.boxabout {
+    height: 300px;
+}
 
 /* Contact */
+.headercontact {
+    margin-top: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+.boxcontact {
+    height: 300px;
+}
+
 form {
     background: red;
     margin-left:auto;
@@ -100,7 +145,16 @@ label {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    font-family: 'PT Sans';
 }
 
-
 /* Portfolio */
+.headerportfolio {
+    margin-top: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+.boxportfolio {
+    height: 300px;
+}
