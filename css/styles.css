@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
     font-family: 'PT Sans', sans-serif;
+    line-height: 140%;
+    margin-top: 30px;
 }
 
 
@@ -108,6 +110,15 @@ footer div {
     height: 300px;
 }
 
+
+
+.zm1 {
+    display: block;
+    width: 30%;
+    border-radius: 20px;
+    margin: auto;
+}
+
 /* Contact */
 .headercontact {
     margin-top: auto;
@@ -170,6 +181,10 @@ figure {
     margin-top: 50px;
 }
 
+figcaption {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 140%;
+}
 
 
 /* grid */
@@ -179,14 +194,12 @@ figure {
     grid-template-rows: 1fr .5fr 1fr .5fr;
     grid-column-gap: 5px;
     grid-row-gap: 10px;
-    background: red;
     }
 .parent img {
     width: 100%;
 }
 
 .item1 {
-    background: blue;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -194,7 +207,6 @@ figure {
     margin: auto;
 }
 .item1des {
-    background: yellow;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -202,7 +214,6 @@ figure {
 }
 
 .item2 {
-    background: green;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -210,7 +221,6 @@ figure {
     margin: auto;
 }
 .item2des {
-    background: yellow;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -218,7 +228,6 @@ figure {
 }
 
 .item3 {
-    background: green;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -226,7 +235,6 @@ figure {
     margin: auto;
 }
 .item3des {
-    background: aquamarine;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -247,7 +255,6 @@ figure {
 }
 
 .item5 {
-    background: green;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -262,7 +269,6 @@ figure {
 }
 
 .item6 {
-    background: green;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -270,7 +276,6 @@ figure {
     margin: auto;
 }
 .item6des {
-    background: aquamarine;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
