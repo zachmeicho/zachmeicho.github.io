@@ -10,7 +10,7 @@ font-family: 'Source Serif Pro', serif; */
 
 /* Global */
 *   {
-    outline: 1px dotted green;
+    outline: 0px dotted green;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Source serif pro', serif;
@@ -20,6 +20,15 @@ p {
     line-height: 140%;
     margin-top: 30px;
 }
+.article-header {
+    background-color: rgb(12, 15, 61);
+}
+header div p {
+    color: white;
+}
+
+
+
 
 
 /* nav bar */
@@ -31,18 +40,18 @@ li  {
 a {
     text-decoration: none;
     font-family: 'Source Serif Pro';
-    color: white;
+    color: rgb(12, 15, 61);
 }
 a:visited {
     text-decoration: none;
     font-family: 'Source Serif Pro';
-    color: white;
+    color: rgb(12, 15, 61);
 }
 
 nav {
     margin: auto 00px;
     text-align: center;
-    background: aquamarine;
+    background: rgba(12, 15, 61, 0.171);
 }
 
 
@@ -68,6 +77,7 @@ section h2 {
     padding-top: 200px;
     text-align: center;
     font-size: 6em;
+    color: white;
 }
 header div p {
     text-align: center;
@@ -78,20 +88,26 @@ header div p {
     width: 700px;
     margin: auto;
     margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(12, 15, 61, 0.171);
 }
 
 /* footer */
 footer p {
     text-align: center;
     padding-top: 50px;
+    color: white;
+    line-height: 200%;
+    font-size: .8em;
 }
 footer {
     margin-top: 100px;
     height: 200px;
-    background: aquamarine;
+    background: rgb(12, 15, 61);
 }
 footer div {
-    width: 700px;
+    width: 500px;
     margin: auto;
 }
 
@@ -105,13 +121,11 @@ footer div {
     padding-top: 100px;
     text-align: center;
     font-size: 4em;
+    color: white;
 }
 .boxabout {
     height: 300px;
 }
-
-
-
 .zm1 {
     display: block;
     width: 30%;
@@ -125,20 +139,20 @@ footer div {
     padding-top: 100px;
     text-align: center;
     font-size: 4em;
+    color: white;
 }
 .boxcontact {
     height: 300px;
 }
 
 form {
-    background: red;
     margin-left:auto;
     margin-right:auto;
     margin-top: 70px;
     max-width: 80%;
-    background: #D2E9FF;
+    
     padding: 20px;
-    color: #666;
+    color: rgb(68, 68, 68);
 }
 
 input {
@@ -166,6 +180,7 @@ label {
     padding-top: 100px;
     text-align: center;
     font-size: 4em;
+    color: white;
 }
 .boxportfolio {
     height: 300px;
@@ -192,11 +207,15 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr .5fr 1fr .5fr;
-    grid-column-gap: 5px;
+    grid-column-gap: 15px;
     grid-row-gap: 10px;
+    background-color: rgb(219, 219, 226); 
+    padding: 30px;
+    border-radius: 20px;
     }
 .parent img {
     width: 100%;
+    border-radius: 20px;
 }
 
 .item1 {
@@ -281,3 +300,26 @@ figcaption {
     grid-row-start: 4;
     grid-row-end: 5;
 }
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+    body {
+        font-size: 70%;
+    }
+    .mainsection {
+        width: 70%;
+    }
+    .mainsectionportfolio {
+        width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+
+    body {
+        font-size: 50%;
+    }
+  }
